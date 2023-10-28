@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 import pyautogui
 import time
-import requests
-
 def check_white_through(gray, x_front, x_back, roi):
     ret, thresholded = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
     contours, _ = cv2.findContours(thresholded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
