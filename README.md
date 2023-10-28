@@ -1,6 +1,5 @@
 # AutoHook Fivem Og City
- * autohook bot with using OpenCV and NumPy
- * bot can continue to fishing fully automatically
+ * AutoHook bot with using OpenCV and NumPy
 
 ![Video](https://github.com/NuengSittha/Autohook/blob/main/IMG_4950.gif)
 
